@@ -1,0 +1,36 @@
+---
+menu: 
+  main:
+    weight: 4
+title: 自研插件
+---
+
+---
+
+服务器使用自研插件 **[OrzMC](https://hangar.papermc.io/wangzhizhou666/OrzMC)** 来辅助运营服务器，
+插件已发布到 **[Hangar](https://hangar.papermc.io)** 平台。
+
+---
+
+
+# 插件功能
+
+新手进服会获得新手指南，**/guide** 命令可以打开新手指南。
+    
+**/tpbow** 命令可获得传送弓。
+    
+禁用 TNT，玩家放置或点燃 TNT 会全服公告，并同步玩家群。
+
+QQ群提供服务器/玩家上下线提醒。
+
+QQ群管理员可对玩家白名单进行添加/移除操作。
+
+---
+
+QQ群玩家通知和命令控制能力使用第三方服务 **[NapCatQQ](https://napcat.napneko.icu)** 自行部署实现。
+
+---
+
+[管理]: <http://mcs.jokerhub.cn:23333/>
+
+[海外服积分]: <https://exaroton.com/pools/qWE6dfsMX4TxT6g4>
