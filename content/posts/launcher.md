@@ -1,0 +1,31 @@
+---
+title: 怎样开发一个Minecraft启动器(Java版)
+summary: 自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器
+draft: true
+---
+
+
+Minecraft 玩了很久，一定使用过各种启动器，除了官方启动器之外，还有许多第三方开发的启动器，例如：
+[HMCL](https://hmcl.huangyuhui.net/)、
+[MultiMC](https://multimc.org/)、
+[Prism Launcher](https://prismlauncher.org/)、
+[ATLauncher](https://atlauncher.com/)、
+[GDLauncher](https://gdevs.io/)
+
+---
+| 启动器 | 适合人群 | 特点 |
+|:--------|:--------:|:------|
+| **HMCL** | Mod 玩家 | 中文友好，功能全面 |
+| **Prism Launcher** | 多实例管理 | 轻量、稳定 |
+| **ATLauncher** | 整合包玩家 | 大型 Mod 包支持 |
+| **GDLauncher** | 现代化 UI | 云同步（付费） |
+| **Lunar Client** | PvP 玩家 | 性能优化 |
+| **Betacraft** | 怀旧玩家 | 支持远古版本 |
+| **TLauncher** | 盗版玩家（不推荐） | 风险高 |
+---
+
+你一定好奇，这些启动器是怎么开发出来的，我们是不是可以自己动手开发一个自己的启动器？
+
+答案当然是可以的，而且实现一个启动器其实并不困难，我们只需要了解启动器的核心功能就可以自己制作一个启动器出来。
+
+想了解启动器工作原理，我们首先可以看看官方启动器是怎么运行的。[下载微软官方的启动器](https://www.minecraft.net/zh-hans/download)，安装并启动它。
