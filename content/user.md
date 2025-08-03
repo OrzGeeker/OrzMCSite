@@ -41,3 +41,17 @@ title: 玩家手册
 
 出门探险一段时间获得了不少的物品，但是可能不小心被苦力怕炸飞，或是被小白洞穿身体，你复活时想要尽快的拿回丢失的物品，可以使用 **/back** 命令，
 快速回到死亡地点，并找到收纳自己掉落物品的箱子。这个掉落物品收纳箱五分钟内有效，所以你需要在五分钟内回到死亡地点，如果超时，掉落的物品将会消失。如果死亡是由于掉进岩浆，很不幸，你的箱子也会被融化掉，所以物品是找不回来的 **#-_-#**。
+
+
+## 如何自定义皮肤
+
+登录图片保存网站 [imgur](https://imgur.com/)
+上传你的皮肤后，获取下载链接后，在游戏里使用命令进行设置：
+
+```bash
+/skinsrestorer:skin set <your_skin_image_download_link>
+```
+
+[joker skin download link]: <https://imgur.com/h1uiSRA>
+
+[fancy skin download link]: <https://imgur.com/UXp36tp>
