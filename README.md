@@ -1,5 +1,9 @@
 # OrzMCSite
 
+[![Publish Web Page](https://github.com/OrzGeeker/OrzMCSite/actions/workflows/site_deploy.yml/badge.svg)](https://github.com/OrzGeeker/OrzMCSite/actions/workflows/site_deploy.yml)
+
+[![pages-build-deployment](https://github.com/OrzGeeker/OrzMCSite/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/OrzGeeker/OrzMCSite/actions/workflows/pages/pages-build-deployment)
+
 OrzMC私服官方网站
 
 ## 使用方式
