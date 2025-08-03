@@ -56,8 +56,6 @@ slug = "bilibili"
 label = "BiliBili"
 icon = "bilibili"
 profile = "https://space.bilibili.com/%s"
-[ananke.social.qq]
-username = "824219521"
 [ananke.social.networks.qq]
 slug = "qq"
 label = "QQ"

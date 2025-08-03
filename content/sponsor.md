@@ -2,7 +2,11 @@
 menu: 
   main:
     weight: 5
+featured_image: "/images/bg_qq_sponsor.png"
+featured_image_class: "cover bg-top"
+cover_dimming_class: "bg-black-0"
 title: "捐赠"
+description: "无论金额大小，您的名字都将铭刻在服务器的成长史诗中！"
 ---
 
 ---
