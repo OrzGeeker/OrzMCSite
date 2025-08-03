@@ -10,10 +10,10 @@ featured_image: "/images/bg_qq_sponsor_v2.png"
 
 ## Minecraft - [PaperMC](https://papermc.io)
 
-区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|链接|
-|:---|:-------:|:-----|:--------------------------|---|
-|国内|**1.21.7**|≥**21**|**mcs.jokerhub.cn**|[管理](http://mcs.jokerhub.cn:23333/)|
-|海外|**1.21.7**|≥**21**|**paper.jokerhub.cn**|[积分](https://exaroton.com/pools/qWE6dfsMX4TxT6g4)|
+区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
+|:---|:-------:|:-----|:--------------------------|
+|国内|**1.21.7**|≥**21**|**mcs.jokerhub.cn**|
+|海外|**1.21.7**|≥**21**|**paper.jokerhub.cn**|
 
 ---
 

@@ -29,3 +29,6 @@ QQ群管理员可对玩家白名单进行添加/移除操作
 QQ群服务需要使用 **[NapCatQQ](https://napcat.napneko.icu)** 服务自行部署实现
 
 ---
+
+[管理]: <http://mcs.jokerhub.cn:23333/>
+[海外服积分]: <https://exaroton.com/pools/qWE6dfsMX4TxT6g4>
