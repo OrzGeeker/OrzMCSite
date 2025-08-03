@@ -3,12 +3,9 @@ menu:
   main:
     name: "客户端"
     weight: 2
+title: 客户端启动器
 toc: true
 ---
-
-# 客户端启动器
-
-游戏版本和Java版本的对应关系
 
 ---
 

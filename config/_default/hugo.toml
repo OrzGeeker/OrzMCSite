@@ -1,0 +1,11 @@
+# Site
+baseURL = "https://minecraft.jokerhub.cn"
+title = "Joker@Minecraft 🇨🇳"
+theme = "ananke"
+
+# Hugo
+[module.hugoVersion]
+min = "0.147.9"
+
+[markup.goldmark.renderer]
+unsafe = false
