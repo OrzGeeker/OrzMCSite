@@ -5,7 +5,7 @@ menu:
     weight: 1
 title: " ❤️‍🔥 我的世界"
 description: "一个人是冒险，一群人是传奇！"
-featured_image: '/images/minecraft_night.png'
+featured_image: "/images/bg_qq_sponsor_v2.png"
 ---
 
 ## Minecraft - [PaperMC](https://papermc.io)
