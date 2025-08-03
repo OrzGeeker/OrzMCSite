@@ -2,9 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://minecraft.jokerhub.cn/client/</loc>
-  </url><url>
-    <loc>https://minecraft.jokerhub.cn/user/</loc>
+    <loc>https://minecraft.jokerhub.cn/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/categories/</loc>
   </url><url>
@@ -14,11 +12,13 @@
   </url><url>
     <loc>https://minecraft.jokerhub.cn/tags/</loc>
   </url><url>
-    <loc>https://minecraft.jokerhub.cn/</loc>
+    <loc>https://minecraft.jokerhub.cn/client/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/sponsor/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/posts/worldsize/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/user/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/plugin/</loc>
   </url>
