@@ -21,7 +21,7 @@ show_reading_time = false
 
 # Follow
 [ananke.social.follow]
-new_window_icon = false
+new_window_icon = true
 networks = [
     "qq",
     "discord",
