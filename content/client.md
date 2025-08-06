@@ -84,3 +84,41 @@ HMCL 可以安装 Fraric 装载器，常用的 MOD 列表：
 |名称|功能|
 |:---|:---|
 |[Reply MOD](https://www.replaymod.com/)|客户端视频录制|
+
+---
+
+## 客户端开光影
+
+Optifine的jar包路径要包含在最前面，否则会有问题，解决方案参考：<https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine>
+
+- [Optifine](https://www.optifine.net/home): 客户端开光影扩展
+
+ShaderPack
+  
+- [BSL Shader on Curse Forge](https://www.curseforge.com/minecraft/customization/bsl-shaders)
+- [BSL Shader](https://bitslablab.com): 客户端光影渲染器
+
+
+resourcepacks
+
+- [BSL MiniPack](https://bitslablab.com/bslminipacks/#download)
+- [Chromahills](http://chromahills.com): 客户端光影材质包
+
+---
+
+## 客户端使用模组
+
+下载Forge - [官网](https://files.minecraftforge.net/)
+
+Forge服务只能使用JDK8，所以JDK版本一定要确认清楚
+
+运行命令: `java -jar forge-*.jar --installServer
+
+把mod加入到`mods`文件夹下，包括`SpongeForge.jar`
+
+- [暮色森林](https://github.com/TeamTwilight/twilightforest)
+
+启动服务器
+```
+java -jar forge-*universal.jar
+```

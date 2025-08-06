@@ -12,7 +12,7 @@ cover_dimming_class = "bg-black-15"
 background_color_class = "bg-black"
 
 read_more_copy = "阅读全文"
-recent_posts_number = 0
+recent_posts_number = 10
 post_content_classes = "serif"
 
 [ananke]
