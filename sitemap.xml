@@ -2,11 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</loc>
+  </url><url>
+    <loc>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</loc>
+  </url><url>
     <loc>https://minecraft.jokerhub.cn/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/categories/</loc>
-  </url><url>
-    <loc>https://minecraft.jokerhub.cn/posts/papermc/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/posts/</loc>
   </url><url>
@@ -15,8 +31,6 @@
     <loc>https://minecraft.jokerhub.cn/client/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/sponsor/</loc>
-  </url><url>
-    <loc>https://minecraft.jokerhub.cn/posts/worldsize/</loc>
   </url><url>
     <loc>https://minecraft.jokerhub.cn/user/</loc>
   </url><url>

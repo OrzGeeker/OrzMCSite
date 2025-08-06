@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>PaperMC插件开发 | Joker@Minecraft 🇨🇳</title>
+    <title>怎样开发一个Minecraft启动器(Java版) | Joker@Minecraft 🇨🇳</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
+    <meta name="description" content="自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器">
     <meta name="generator" content="Hugo 0.147.9">
     
     
@@ -34,23 +34,23 @@
     
 
     
-      <link rel="canonical" href="https://minecraft.jokerhub.cn/posts/papermc/">
+      <link rel="canonical" href="https://minecraft.jokerhub.cn/posts/1.client/10.launcher/">
     
 
-    <meta property="og:url" content="https://minecraft.jokerhub.cn/posts/papermc/">
+    <meta property="og:url" content="https://minecraft.jokerhub.cn/posts/1.client/10.launcher/">
   <meta property="og:site_name" content="Joker@Minecraft 🇨🇳">
-  <meta property="og:title" content="PaperMC插件开发">
-  <meta property="og:description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
+  <meta property="og:title" content="怎样开发一个Minecraft启动器(Java版)">
+  <meta property="og:description" content="自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
 
-  <meta itemprop="name" content="PaperMC插件开发">
-  <meta itemprop="description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
-  <meta itemprop="wordCount" content="41">
+  <meta itemprop="name" content="怎样开发一个Minecraft启动器(Java版)">
+  <meta itemprop="description" content="自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器">
+  <meta itemprop="wordCount" content="58">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="PaperMC插件开发">
-  <meta name="twitter:description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
+  <meta name="twitter:title" content="怎样开发一个Minecraft启动器(Java版)">
+  <meta name="twitter:description" content="自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器">
 
       
     
@@ -200,7 +200,7 @@
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
         Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://twitter.com/intent/tweet/?&amp;text=%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%BC%80%E5%8F%91PaperMC%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8F%92%E4%BB%B6%E6%98%AF%E4%B8%80%E4%BB%B6%E5%BE%88%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E4%BA%8B%E6%83%85%E3%80%82PaperMC%E7%9A%84%E5%BC%80%E5%8F%91%E8%80%85%E7%94%9F%E6%80%81%E5%BE%88%E5%AE%8C%E5%96%84%EF%BC%8C%E6%8F%90%E4%BE%9B%E4%BA%86%E4%B8%80%E4%B8%AA%E6%AF%94%E8%BE%83%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA%EF%BC%8C%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E7%9A%84%E6%8F%92%E4%BB%B6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%AF%94%E8%BE%83%E5%AE%B9%E6%98%93%E7%9A%84%E5%8F%91%E5%B8%83%E5%88%B0%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA%E4%B8%8A%EF%BC%8C%E4%BE%9B%E5%85%B6%E5%AE%83%E7%8E%A9%E5%AE%B6%E4%BD%BF%E7%94%A8%E3%80%82%E6%9C%AC%E6%96%87%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B%E5%BC%80%E5%8F%91PaperMC%E7%9A%84%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8F%92%E4%BB%B6%E3%80%82&amp;url=https%3A%2F%2Fminecraft.jokerhub.cn%2Fposts%2Fpapermc%2F"
+      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://twitter.com/intent/tweet/?&amp;text=%E8%87%AA%E5%B7%B2%E5%8A%A8%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AA&#43;Minecraft&#43;%E5%90%AF%E5%8A%A8%E5%99%A8%EF%BC%8C%E4%BD%A0%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84%E5%90%AF%E5%8A%A8%E5%99%A8&amp;url=https%3A%2F%2Fminecraft.jokerhub.cn%2Fposts%2F1.client%2F10.launcher%2F"
         class="ananke-social-link x-twitter no-underline"
         title="Share on X" aria-label="Share on X"
         target="_blank" rel="nofollow noopener noreferrer">
@@ -208,7 +208,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
                 
               </span></a></div>
-<h1 class="f1 athelas mt3 mb1">PaperMC插件开发</h1>
+<h1 class="f1 athelas mt3 mb1">怎样开发一个Minecraft启动器(Java版)</h1>
       
       
       
@@ -216,51 +216,76 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><h2 id="开发环境部署">开发环境部署</h2>
-<ol>
-<li>安装JDK: <strong><a href="https://www.oracle.com/java/technologies/javase-downloads.html">Java Development Kit Downloads</a></strong></li>
-</ol>
-<p><img src="/images/dev/plugin/ide/jdk_download.png" alt=""></p>
-<ol start="2">
-<li>安装IDE集成开发环境: <strong><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition 下载安装</a></strong>，社区版是免费的，可以个人使用</li>
-</ol>
-<p><img src="/images/dev/plugin/ide/IntelliJ_IDEA_CE.png" alt=""></p>
-<ol start="3">
-<li>安装IDE对应Minecraft开发的插件：<strong><a href="https://plugins.jetbrains.com/plugin/8327-minecraft-development">Minecraft Development</a></strong></li>
-</ol>
-<p><img src="/images/dev/plugin/ide/minecraft_development.png" alt=""></p>
-<p><img src="/images/dev/plugin/ide/papermc_plugin_dev_IDEA_plugin_install.png" alt=""></p>
-<ol start="4">
-<li>在IDE中新建工程，创建PaperMC插件模板工程</li>
-</ol>
-<p><img src="/images/dev/plugin/ide/create_plugin.png" alt=""></p>
-<ol start="5">
-<li>
-<p>参考PaperMC官网提供的 <strong><a href="https://docs.papermc.io/paper/dev/project-setup/">插件开发文档</a></strong></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><hr>
+<p>Minecraft 玩了很久，一定使用过各种启动器，除了官方启动器之外，还有许多第三方开发的启动器，例如：
+<a href="https://hmcl.huangyuhui.net/">HMCL</a>、
+<a href="https://multimc.org/">MultiMC</a>、
+<a href="https://prismlauncher.org/">Prism Launcher</a>、
+<a href="https://atlauncher.com/">ATLauncher</a>、
+<a href="https://gdevs.io/">GDLauncher</a></p>
+<hr>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">启动器</th>
+          <th style="text-align: center">适合人群</th>
+          <th style="text-align: left">特点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>HMCL</strong></td>
+          <td style="text-align: center">Mod 玩家</td>
+          <td style="text-align: left">中文友好，功能全面</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Prism Launcher</strong></td>
+          <td style="text-align: center">多实例管理</td>
+          <td style="text-align: left">轻量、稳定</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ATLauncher</strong></td>
+          <td style="text-align: center">整合包玩家</td>
+          <td style="text-align: left">大型 Mod 包支持</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>GDLauncher</strong></td>
+          <td style="text-align: center">现代化 UI</td>
+          <td style="text-align: left">云同步（付费）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Lunar Client</strong></td>
+          <td style="text-align: center">PvP 玩家</td>
+          <td style="text-align: left">性能优化</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Betacraft</strong></td>
+          <td style="text-align: center">怀旧玩家</td>
+          <td style="text-align: left">支持远古版本</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>TLauncher</strong></td>
+          <td style="text-align: center">盗版玩家（不推荐）</td>
+          <td style="text-align: left">风险高</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p>你一定好奇，这些启动器是怎么开发出来的，我们是不是可以自己动手开发一个自己的启动器？</p>
+<p>答案当然是可以的，而且实现一个启动器其实并不困难，我们只需要了解启动器的核心功能就可以自己制作一个启动器出来。</p>
+<p>想了解启动器工作原理，我们首先可以看看官方启动器是怎么运行的。<a href="https://www.minecraft.net/zh-hans/download">下载微软官方的启动器</a>，安装并启动它。</p>
+<hr>
+<p>启动游戏客户端，然后在控制台使用命令，查看启动器进程:</p>
 <ul>
-<li>了解插件工程的基本文件结构和代码逻辑</li>
-<li>现在有很多AI工具可以辅助我们，不会的直接问，看不懂英文的也可以让AI帮忙翻译</li>
+<li>Windows:</li>
 </ul>
-</li>
-<li>
-<p>学习：<strong><a href="https://docs.papermc.io/paper/dev/debugging/">如何调试插件</a></strong> / <strong><a href="https://docs.papermc.io/misc/hangar-publishing/">如何发布插件</a></strong></p>
-</li>
-<li>
-<p>两个现成插件项目可供你参考学习：<strong><a href="https://github.com/OrzGeeker/OrzMCPlugin.git">OrzMCPlugin</a></strong> / <strong><a href="https://github.com/wangzhizhou/GetMeHome.git">GetMeHome</a></strong></p>
-</li>
-</ol>
-<h2 id="相关开发资源">相关开发资源</h2>
-<ul>
-<li><a href="https://docs.papermc.io/">PaperMC Docs</a></li>
-<li><a href="https://papermc.io/javadocs">PaperMC JavaDoc</a></li>
-<li><a href="https://docs.advntr.dev/">Adventure Docs</a></li>
-<li><a href="https://youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7">Spigot 插件开发教程(油管视频自备梯子)</a></li>
+<pre tabindex="0"><code>wmic process where caption=&#34;javaw.exe&#34; get caption,commandline /value
+</code></pre><ul>
+<li>Linux/macOS:</li>
 </ul>
-<h2 id="一些常用插件">一些常用插件</h2>
-<ul>
-<li>Minecraft百科： <a href="https://minecraft.fandom.com/wiki/Minecraft_Wiki">英文</a> / <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki">中文</a></li>
-<li><a href="https://mineplugin.org/">各种插件的使用百科说明书</a></li>
-<li><a href="https://github.com/Querz/mcaselector">地图编辑工具</a></li>
+<pre tabindex="0"><code>ps aux | grep java
+</code></pre><ul>
+<li><a href="https://minecraft.gamepedia.com/Client.json">client.json</a>：客户端启动器对应文件</li>
 </ul>
 <ul class="pa0">
   
@@ -271,16 +296,7 @@
       </div>
     </div>
 
-    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">What&#39;s in this posts</p>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#开发环境部署">开发环境部署</a></li>
-    <li><a href="#相关开发资源">相关开发资源</a></li>
-    <li><a href="#一些常用插件">一些常用插件</a></li>
-  </ul>
-</nav>
-  </div>
+    <aside class="w-30-l mt6-l">
 
 
 

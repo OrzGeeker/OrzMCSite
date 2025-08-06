@@ -4,79 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>客户端启动器 | Joker@Minecraft 🇨🇳</title>
+    <title>PaperMC插件开发 | Joker@Minecraft 🇨🇳</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="
-
-  
-      
-          游戏版本
-          JAVA版本
-      
-  
-  
-      
-          ≧1.20.5
-          ≧21
-      
-      
-          ≧1.18
-          ≧17
-      
-      
-          ≧1.17
-          ≧16
-      
-      
-          &lt;1.17
-          ≧8
-      
-  
-
-
-自研 MacOS 平台启动器 - OrzMCApp
-使用 Swift &amp; SwiftUI 编写的MacOS平台启动器:
-代码仓库 -
-下载应用
-
-视频介绍👇
-
-  
-      
-          
-          
-      
-  
-  
-      
-          
-          
-      
-      
-          
-          
-      
-  
-
-
-Python 命令行启动器 - OrzPythonMC
-Mac/Linux系统可以使用：代码仓库 - PyPI发布
-
-安装方法:
-# 安装应用到用户目录下
-python3 -m pip install --user orzmc
-# 添加用户二进制目录到环境变量
-echo &#39;PATH=$PATH:&#39;$(python3 -m site --user-base)/bin &gt;&gt; ~/.bashrc
-# 使用添加的环境变量立即生效
-source ~/.bashrc 
-# 运行 orzmc 命令
-orzmc
-
-跨平台Java启动器 - HMCL
-HMCL主页 -
-代码仓库 -
-下载地址
-">
+    <meta name="description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
     <meta name="generator" content="Hugo 0.147.9">
     
     
@@ -104,34 +34,23 @@ HMCL主页 -
     
 
     
-      <link rel="canonical" href="https://minecraft.jokerhub.cn/client/">
+      <link rel="canonical" href="https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/">
     
 
-    <meta property="og:url" content="https://minecraft.jokerhub.cn/client/">
+    <meta property="og:url" content="https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/">
   <meta property="og:site_name" content="Joker@Minecraft 🇨🇳">
-  <meta property="og:title" content="客户端启动器">
-  <meta property="og:description" content="游戏版本 JAVA版本 ≧1.20.5 ≧21 ≧1.18 ≧17 ≧1.17 ≧16 &lt;1.17 ≧8 自研 MacOS 平台启动器 - OrzMCApp 使用 Swift &amp; SwiftUI 编写的MacOS平台启动器: 代码仓库 - 下载应用
-视频介绍👇
-Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓库 - PyPI发布
-安装方法:
-# 安装应用到用户目录下 python3 -m pip install --user orzmc # 添加用户二进制目录到环境变量 echo &#39;PATH=$PATH:&#39;$(python3 -m site --user-base)/bin &gt;&gt; ~/.bashrc # 使用添加的环境变量立即生效 source ~/.bashrc # 运行 orzmc 命令 orzmc 跨平台Java启动器 - HMCL HMCL主页 - 代码仓库 - 下载地址">
+  <meta property="og:title" content="PaperMC插件开发">
+  <meta property="og:description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
 
-  <meta itemprop="name" content="客户端启动器">
-  <meta itemprop="description" content="游戏版本 JAVA版本 ≧1.20.5 ≧21 ≧1.18 ≧17 ≧1.17 ≧16 &lt;1.17 ≧8 自研 MacOS 平台启动器 - OrzMCApp 使用 Swift &amp; SwiftUI 编写的MacOS平台启动器: 代码仓库 - 下载应用
-视频介绍👇
-Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓库 - PyPI发布
-安装方法:
-# 安装应用到用户目录下 python3 -m pip install --user orzmc # 添加用户二进制目录到环境变量 echo &#39;PATH=$PATH:&#39;$(python3 -m site --user-base)/bin &gt;&gt; ~/.bashrc # 使用添加的环境变量立即生效 source ~/.bashrc # 运行 orzmc 命令 orzmc 跨平台Java启动器 - HMCL HMCL主页 - 代码仓库 - 下载地址">
-  <meta itemprop="wordCount" content="124">
+  <meta itemprop="name" content="PaperMC插件开发">
+  <meta itemprop="description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
+  <meta itemprop="wordCount" content="41">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="客户端启动器">
-  <meta name="twitter:description" content="游戏版本 JAVA版本 ≧1.20.5 ≧21 ≧1.18 ≧17 ≧1.17 ≧16 &lt;1.17 ≧8 自研 MacOS 平台启动器 - OrzMCApp 使用 Swift &amp; SwiftUI 编写的MacOS平台启动器: 代码仓库 - 下载应用
-视频介绍👇
-Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓库 - PyPI发布
-安装方法:
-# 安装应用到用户目录下 python3 -m pip install --user orzmc # 添加用户二进制目录到环境变量 echo &#39;PATH=$PATH:&#39;$(python3 -m site --user-base)/bin &gt;&gt; ~/.bashrc # 使用添加的环境变量立即生效 source ~/.bashrc # 运行 orzmc 命令 orzmc 跨平台Java启动器 - HMCL HMCL主页 - 代码仓库 - 下载地址">
+  <meta name="twitter:title" content="PaperMC插件开发">
+  <meta name="twitter:description" content="学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。">
 
       
     
@@ -280,8 +199,8 @@ Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓�
     <header class="mt4 w-100">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
-         ❤️‍🔥 我的世界
-      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://twitter.com/intent/tweet/?&amp;text=&#43;%E6%B8%B8%E6%88%8F%E7%89%88%E6%9C%AC&#43;JAVA%E7%89%88%E6%9C%AC&#43;%E2%89%A71.20.5&#43;%E2%89%A721&#43;%E2%89%A71.18&#43;%E2%89%A717&#43;%E2%89%A71.17&#43;%E2%89%A716&#43;%26amp%3Blt%3B1.17&#43;%E2%89%A78&#43;%E8%87%AA%E7%A0%94&#43;MacOS&#43;%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8%E5%99%A8&#43;-&#43;OrzMCApp&#43;%E4%BD%BF%E7%94%A8&#43;Swift&#43;%26amp%3Bamp%3B&#43;SwiftUI&#43;%E7%BC%96%E5%86%99%E7%9A%84MacOS%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8%E5%99%A8%3A&#43;%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93&#43;-&#43;%E4%B8%8B%E8%BD%BD%E5%BA%94%E7%94%A8%0A%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D%F0%9F%91%87%0APython&#43;%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8%E5%99%A8&#43;-&#43;OrzPythonMC&#43;Mac%2FLinux%E7%B3%BB%E7%BB%9F%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%EF%BC%9A%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93&#43;-&#43;PyPI%E5%8F%91%E5%B8%83%0A%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95%3A%0A%23&#43;%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8%E5%88%B0%E7%94%A8%E6%88%B7%E7%9B%AE%E5%BD%95%E4%B8%8B&#43;python3&#43;-m&#43;pip&#43;install&#43;--user&#43;orzmc&#43;%23&#43;%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9B%AE%E5%BD%95%E5%88%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F&#43;echo&#43;%26amp%3B%2339%3BPATH%3D%24PATH%3A%26amp%3B%2339%3B%24%28python3&#43;-m&#43;site&#43;--user-base%29%2Fbin&#43;%26amp%3Bgt%3B%26amp%3Bgt%3B&#43;~%2F.bashrc&#43;%23&#43;%E4%BD%BF%E7%94%A8%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%AB%8B%E5%8D%B3%E7%94%9F%E6%95%88&#43;source&#43;~%2F.bashrc&#43;%23&#43;%E8%BF%90%E8%A1%8C&#43;orzmc&#43;%E5%91%BD%E4%BB%A4&#43;orzmc&#43;%E8%B7%A8%E5%B9%B3%E5%8F%B0Java%E5%90%AF%E5%8A%A8%E5%99%A8&#43;-&#43;HMCL&#43;HMCL%E4%B8%BB%E9%A1%B5&#43;-&#43;%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93&#43;-&#43;%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%0A&amp;url=https%3A%2F%2Fminecraft.jokerhub.cn%2Fclient%2F"
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://twitter.com/intent/tweet/?&amp;text=%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%BC%80%E5%8F%91PaperMC%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8F%92%E4%BB%B6%E6%98%AF%E4%B8%80%E4%BB%B6%E5%BE%88%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E4%BA%8B%E6%83%85%E3%80%82PaperMC%E7%9A%84%E5%BC%80%E5%8F%91%E8%80%85%E7%94%9F%E6%80%81%E5%BE%88%E5%AE%8C%E5%96%84%EF%BC%8C%E6%8F%90%E4%BE%9B%E4%BA%86%E4%B8%80%E4%B8%AA%E6%AF%94%E8%BE%83%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA%EF%BC%8C%E6%88%91%E4%BB%AC%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E7%9A%84%E6%8F%92%E4%BB%B6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%AF%94%E8%BE%83%E5%AE%B9%E6%98%93%E7%9A%84%E5%8F%91%E5%B8%83%E5%88%B0%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA%E4%B8%8A%EF%BC%8C%E4%BE%9B%E5%85%B6%E5%AE%83%E7%8E%A9%E5%AE%B6%E4%BD%BF%E7%94%A8%E3%80%82%E6%9C%AC%E6%96%87%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B%E5%BC%80%E5%8F%91PaperMC%E7%9A%84%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8F%92%E4%BB%B6%E3%80%82&amp;url=https%3A%2F%2Fminecraft.jokerhub.cn%2Fposts%2F2.server%2F23.papermc_plugin_dev%2F"
         class="ananke-social-link x-twitter no-underline"
         title="Share on X" aria-label="Share on X"
         target="_blank" rel="nofollow noopener noreferrer">
@@ -289,7 +208,7 @@ Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓�
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
                 
               </span></a></div>
-<h1 class="f1 athelas mt3 mb1">客户端启动器</h1>
+<h1 class="f1 athelas mt3 mb1">PaperMC插件开发</h1>
       
       
       
@@ -297,125 +216,53 @@ Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓�
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><hr>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">游戏版本</th>
-          <th style="text-align: center">JAVA版本</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">≧1.20.5</td>
-          <td style="text-align: center">≧21</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">≧1.18</td>
-          <td style="text-align: center">≧17</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">≧1.17</td>
-          <td style="text-align: center">≧16</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">&lt;1.17</td>
-          <td style="text-align: center">≧8</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="自研-macos-平台启动器---orzmcapp">自研 MacOS 平台启动器 - OrzMCApp</h2>
-<p>使用 Swift &amp; SwiftUI 编写的MacOS平台启动器:
-<a href="https://github.com/OrzGeeker/OrzMCApp">代码仓库</a> -
-<a href="https://github.com/OrzGeeker/OrzMCApp/releases/download/0.1.1/OrzMC_0.1.1_24_20250723_031710.zip">下载应用</a></p>
-<p><img src="/images/client/orzmc_macOS.png" alt="OrzMC_MacOS"></p>
-<p>视频介绍👇</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center"></th>
-          <th style="text-align: center"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center"></td>
-          <td></td>
-      </tr>
-      <tr>
-          <td style="text-align: center"><a href="https://www.bilibili.com/video/BV1b4HAeBERS"><img src="/images/video_cover/orzmc_install.png" alt="安装"></a></td>
-          <td style="text-align: center"><a href="https://www.bilibili.com/video/BV1hBtUeJE8y"><img src="/images/video_cover/orzmc_usage.png" alt="使用"></a></td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="python-命令行启动器---orzpythonmc">Python 命令行启动器 - OrzPythonMC</h2>
-<p>Mac/Linux系统可以使用：<a href="https://github.com/OrzGeeker/OrzPythonMC">代码仓库</a> - <a href="https://pypi.org/project/OrzMC/">PyPI发布</a></p>
-<p><img src="/images/client/orzmc_cli_py.png" alt="OrzMC_CLI_PY"></p>
-<p>安装方法:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 安装应用到用户目录下</span>
-</span></span><span style="display:flex;"><span>python3 -m pip install --user orzmc
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 添加用户二进制目录到环境变量</span>
-</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;PATH=$PATH:&#39;</span><span style="color:#66d9ef">$(</span>python3 -m site --user-base<span style="color:#66d9ef">)</span>/bin &gt;&gt; ~/.bashrc
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 使用添加的环境变量立即生效</span>
-</span></span><span style="display:flex;"><span>source ~/.bashrc 
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 运行 orzmc 命令</span>
-</span></span><span style="display:flex;"><span>orzmc
-</span></span></code></pre></div><hr>
-<h2 id="跨平台java启动器---hmcl">跨平台Java启动器 - HMCL</h2>
-<p><a href="https://hmcl.huangyuhui.net/">HMCL主页</a> -
-<a href="https://github.com/huanghongxun/HMCL">代码仓库</a> -
-<a href="https://ci.huangyuhui.net/job/HMCL/">下载地址</a></p>
-<p><img src="/images/client/hmcl_java.png" alt="HMCL_JAVA"></p>
-<p>Windows安装运行：</p>
-<pre tabindex="0"><code>下载 `*.exe` 文件，并鼠标双击运行
-</code></pre><p>Unix/Linux/MacOS命令行运行：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 下载 `*.jar`文件，并在命令行中使用`java -jar `命令运行</span>
-</span></span><span style="display:flex;"><span>java -jar HMCL.jar 
-</span></span></code></pre></div><p>HMCL 可以安装 Fraric 装载器，常用的 MOD 列表：</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">名称</th>
-          <th style="text-align: left">功能</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><a href="https://www.replaymod.com/">Reply MOD</a></td>
-          <td style="text-align: left">客户端视频录制</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="客户端开光影">客户端开光影</h2>
-<p>Optifine的jar包路径要包含在最前面，否则会有问题，解决方案参考：<a href="https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine">https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine</a></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><h2 id="开发环境部署">开发环境部署</h2>
+<ol>
+<li>安装JDK: <strong><a href="https://www.oracle.com/java/technologies/javase-downloads.html">Java Development Kit Downloads</a></strong></li>
+</ol>
+<p><img src="/images/dev/plugin/ide/jdk_download.png" alt=""></p>
+<ol start="2">
+<li>安装IDE集成开发环境: <strong><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition 下载安装</a></strong>，社区版是免费的，可以个人使用</li>
+</ol>
+<p><img src="/images/dev/plugin/ide/IntelliJ_IDEA_CE.png" alt=""></p>
+<ol start="3">
+<li>安装IDE对应Minecraft开发的插件：<strong><a href="https://plugins.jetbrains.com/plugin/8327-minecraft-development">Minecraft Development</a></strong></li>
+</ol>
+<p><img src="/images/dev/plugin/ide/minecraft_development.png" alt=""></p>
+<p><img src="/images/dev/plugin/ide/papermc_plugin_dev_IDEA_plugin_install.png" alt=""></p>
+<ol start="4">
+<li>在IDE中新建工程，创建PaperMC插件模板工程</li>
+</ol>
+<p><img src="/images/dev/plugin/ide/create_plugin.png" alt=""></p>
+<ol start="5">
+<li>
+<p>参考PaperMC官网提供的 <strong><a href="https://docs.papermc.io/paper/dev/project-setup/">插件开发文档</a></strong></p>
 <ul>
-<li><a href="https://www.optifine.net/home">Optifine</a>: 客户端开光影扩展</li>
+<li>了解插件工程的基本文件结构和代码逻辑</li>
+<li>现在有很多AI工具可以辅助我们，不会的直接问，看不懂英文的也可以让AI帮忙翻译</li>
 </ul>
-<p>ShaderPack</p>
+</li>
+<li>
+<p>学习：<strong><a href="https://docs.papermc.io/paper/dev/debugging/">如何调试插件</a></strong> / <strong><a href="https://docs.papermc.io/misc/hangar-publishing/">如何发布插件</a></strong></p>
+</li>
+<li>
+<p>两个现成插件项目可供你参考学习：<strong><a href="https://github.com/OrzGeeker/OrzMCPlugin.git">OrzMCPlugin</a></strong> / <strong><a href="https://github.com/wangzhizhou/GetMeHome.git">GetMeHome</a></strong></p>
+</li>
+</ol>
+<h2 id="相关开发资源">相关开发资源</h2>
 <ul>
-<li><a href="https://www.curseforge.com/minecraft/customization/bsl-shaders">BSL Shader on Curse Forge</a></li>
-<li><a href="https://bitslablab.com">BSL Shader</a>: 客户端光影渲染器</li>
+<li><a href="https://docs.papermc.io/">PaperMC Docs</a></li>
+<li><a href="https://papermc.io/javadocs">PaperMC JavaDoc</a></li>
+<li><a href="https://docs.advntr.dev/">Adventure Docs</a></li>
+<li><a href="https://youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7">Spigot 插件开发教程(油管视频自备梯子)</a></li>
 </ul>
-<p>resourcepacks</p>
+<h2 id="一些常用插件">一些常用插件</h2>
 <ul>
-<li><a href="https://bitslablab.com/bslminipacks/#download">BSL MiniPack</a></li>
-<li><a href="http://chromahills.com">Chromahills</a>: 客户端光影材质包</li>
+<li>Minecraft百科： <a href="https://minecraft.fandom.com/wiki/Minecraft_Wiki">英文</a> / <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki">中文</a></li>
+<li><a href="https://mineplugin.org/">各种插件的使用百科说明书</a></li>
+<li><a href="https://github.com/Querz/mcaselector">地图编辑工具</a></li>
 </ul>
-<hr>
-<h2 id="客户端使用模组">客户端使用模组</h2>
-<p>下载Forge - <a href="https://files.minecraftforge.net/">官网</a></p>
-<p>Forge服务只能使用JDK8，所以JDK版本一定要确认清楚</p>
-<p>运行命令: `java -jar forge-*.jar &ndash;installServer</p>
-<p>把mod加入到<code>mods</code>文件夹下，包括<code>SpongeForge.jar</code></p>
-<ul>
-<li><a href="https://github.com/TeamTwilight/twilightforest">暮色森林</a></li>
-</ul>
-<p>启动服务器</p>
-<pre tabindex="0"><code>java -jar forge-*universal.jar
-</code></pre><ul class="pa0">
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -425,14 +272,12 @@ Python 命令行启动器 - OrzPythonMC Mac/Linux系统可以使用：代码仓�
     </div>
 
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">What&#39;s in this page</p>
+    <p class="f5 b mb3">What&#39;s in this posts</p>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#自研-macos-平台启动器---orzmcapp">自研 MacOS 平台启动器 - OrzMCApp</a></li>
-    <li><a href="#python-命令行启动器---orzpythonmc">Python 命令行启动器 - OrzPythonMC</a></li>
-    <li><a href="#跨平台java启动器---hmcl">跨平台Java启动器 - HMCL</a></li>
-    <li><a href="#客户端开光影">客户端开光影</a></li>
-    <li><a href="#客户端使用模组">客户端使用模组</a></li>
+    <li><a href="#开发环境部署">开发环境部署</a></li>
+    <li><a href="#相关开发资源">相关开发资源</a></li>
+    <li><a href="#一些常用插件">一些常用插件</a></li>
   </ul>
 </nav>
   </div>

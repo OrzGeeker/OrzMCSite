@@ -8,11 +8,67 @@
     <language>en</language>
     <atom:link href="https://minecraft.jokerhub.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PaperMC插件开发</title>
-      <link>https://minecraft.jokerhub.cn/posts/papermc/</link>
+      <title>怎样开发一个Minecraft启动器(Java版)</title>
+      <link>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/papermc/</guid>
+      <guid>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</guid>
+      <description>自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器</description>
+    </item>
+    <item>
+      <title>Minecraft Web 客户端</title>
+      <link>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</guid>
+      <description>探索使用Web浏览器玩我的世界游戏。</description>
+    </item>
+    <item>
+      <title>服主应知应会</title>
+      <link>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</guid>
+      <description>如果你要做为一名服务运维自己的Minecraft服务器，这篇文章中的知识需要了解和掌握。</description>
+    </item>
+    <item>
+      <title>服务端运维</title>
+      <link>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</guid>
+      <description>记录一些在实际进行Minecraft服务端运维时遇到的问题和相应的解决办法</description>
+    </item>
+    <item>
+      <title>服务端插件</title>
+      <link>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</guid>
+      <description>收集PaperMC服务端常用的插件信息，以及在实际使用过程中需要注意问题。</description>
+    </item>
+    <item>
+      <title>PaperMC插件开发</title>
+      <link>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</guid>
       <description>学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。</description>
+    </item>
+    <item>
+      <title>Minecraft 红石版服务端</title>
+      <link>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</guid>
+      <description>探索Minecraft红石版服务端的部署和运维</description>
+    </item>
+    <item>
+      <title>服务器地图大小限制</title>
+      <link>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</guid>
+      <description>运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。</description>
+    </item>
+    <item>
+      <title>相关资源链接</title>
+      <link>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</guid>
+      <description>收集与Minecraft相关的一切有用的资源链接</description>
     </item>
     <item>
       <title>客户端启动器</title>
@@ -27,13 +83,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://minecraft.jokerhub.cn/sponsor/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;支付宝扫二维码并添加备注信息&#34;&gt;支付宝扫二维码，并&lt;strong&gt;添加备注信息&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/alipay_sponsor.png&#34; alt=&#34;alipay&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;捐赠者列表公示&#34;&gt;捐赠者列表公示&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换状态&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;捐赠人名称&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;捐赠金额&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换积分&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换金额&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;总结余&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;joker&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;**瑞&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥31.80&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;350&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥30.13&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥1.67&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;🚧&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;**午&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;0&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥0&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥25.52&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;exaroton-海外服务器积分支付记录公示&#34;&gt;Exaroton 海外服务器积分支付记录公示&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/server/exaroton_score.png&#34; alt=&#34;exaroton server payment log&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>服务器地图大小限制</title>
-      <link>https://minecraft.jokerhub.cn/posts/worldsize/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/worldsize/</guid>
-      <description>运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。</description>
     </item>
     <item>
       <title>玩家手册</title>
