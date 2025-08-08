@@ -13,7 +13,7 @@ featured_image: "/images/bg_qq_sponsor_v2.png"
 区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
 |:---|:-------:|:-----|:--------------------------|
 |国内|**1.21.7**|≥**21**|**mcs.jokerhub.cn**|
-|海外|**1.21.7**|≥**21**|**paper.jokerhub.cn**|
+|海外|**1.21.8**|≥**21**|**paper.jokerhub.cn**|
 
 ---
 
