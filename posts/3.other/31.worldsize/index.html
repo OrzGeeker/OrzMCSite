@@ -47,7 +47,7 @@
 
   <meta itemprop="name" content="服务器地图大小限制">
   <meta itemprop="description" content="运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。">
-  <meta itemprop="wordCount" content="65">
+  <meta itemprop="wordCount" content="82">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="服务器地图大小限制">
   <meta name="twitter:description" content="运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。">
@@ -239,6 +239,12 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --query <span style="color:#e6db74">&#34;InhabitedTime &gt; 5min&#34;</span>  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --world &lt;directory_of_world&gt;    <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --output-world &lt;directory_for_backup&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 在原始地图上直接操作，删除所有玩家没待满5分钟以上的方块</span>
+</span></span><span style="display:flex;"><span>java -jar                           <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    mcaselector-2.5.3.jar           <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --mode delete                   <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --query <span style="color:#e6db74">&#34;InhabitedTime &lt;= 5min&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --world &lt;directory_of_world&gt;
 </span></span></code></pre></div><p>CLI命令使用参数速查图：</p>
 <p><img src="https://gist.githubusercontent.com/Querz/5e08c4ab863c2ad8b5da146dc4188ecb/raw/efc4b6990bce79ed4512e9a0a363c64afd7b7444/commands-diagram.png" alt="mcaselector cheatsheet"></p>
 <ul class="pa0">
