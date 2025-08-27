@@ -47,7 +47,7 @@
 
   <meta itemprop="name" content="服务器地图大小限制">
   <meta itemprop="description" content="运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。">
-  <meta itemprop="wordCount" content="38">
+  <meta itemprop="wordCount" content="65">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="服务器地图大小限制">
   <meta name="twitter:description" content="运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。">
@@ -225,10 +225,22 @@
 <p>个方块，也就是 14062485000004 个区块。</p>
 <p>按照一个高度为256的区块在磁盘中的存储大小约为：4M 来计算，共需要磁盘空间约为：53644124 GB</p>
 <p>所以，要开一个可维护的Minecraft服务器，需要控制好磁盘使用。就必须有一个磁盘容量上限。按目前云服务器一般配备50GB磁盘空间来算，除去10GB系统占用，可供开服存储地图的磁盘空间仅有40GB, 按地图默认高度max-build-height=256计算，地图的最大半径值为：max-world-size=810 这是假设玩家会经过所有方块的场景的理想情况。显然这种计算是不符合实际情况的。假设一个方块地图玩家只会经过其中的10%，那么max-world-size=2561。这显然，也不能反映实际情况。所以需要统计一下，区块使用率，用来指导设置世界大小</p>
-<h2 id="地图大小解决方案">地图大小解决方案</h2>
+<h2 id="地图备份文件占用磁盘太大解决方案">地图备份文件占用磁盘太大解决方案</h2>
 <p>目前服务器托管平台，提供自动优化地图大小的能力。地图中玩家没有呆过的区块会被不定时的清理掉，保证地图文件的大小可控。
 如果你的地图文件太大，可以使用工具 <a href="https://github.com/Querz/mcaselector">mcaselector</a> 进行区域按条件筛选后，
 进行删除，可以显著减小地图文件占用空间。</p>
+<p><a href="https://github.com/Querz/mcaselector/releases">mcaselector 下载地址</a></p>
+<p>可以使用CLI命令行模式进行操作，参考文档：<a href="https://github.com/Querz/mcaselector/wiki/CLI-Mode">mcaselector CLI 模式</a></p>
+<p>备份地图的命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 仅导出玩家待了5分钟以上的方块</span>
+</span></span><span style="display:flex;"><span>java -jar                           <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    mcaselector-2.5.3.jar           <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --mode export                   <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --query <span style="color:#e6db74">&#34;InhabitedTime &gt; 5min&#34;</span>  <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --world &lt;directory_of_world&gt;    <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --output-world &lt;directory_for_backup&gt;
+</span></span></code></pre></div><p>CLI命令使用参数速查图：</p>
+<p><img src="https://gist.githubusercontent.com/Querz/5e08c4ab863c2ad8b5da146dc4188ecb/raw/efc4b6990bce79ed4512e9a0a363c64afd7b7444/commands-diagram.png" alt="mcaselector cheatsheet"></p>
 <ul class="pa0">
   
 </ul>
@@ -243,7 +255,7 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#如何计算服务器地图占用磁盘的大小">如何计算服务器地图占用磁盘的大小</a></li>
-    <li><a href="#地图大小解决方案">地图大小解决方案</a></li>
+    <li><a href="#地图备份文件占用磁盘太大解决方案">地图备份文件占用磁盘太大解决方案</a></li>
   </ul>
 </nav>
   </div>
