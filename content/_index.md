@@ -8,6 +8,14 @@ description: "一个人是冒险，一群人是传奇！"
 featured_image: "/images/bg_qq_sponsor_v2.png"
 ---
 
+
+---
+
+**近期，由于 NapCatQQ 服务遭到黑客利用，导致关联的服务器QQ玩家群被永久封禁。
+目前服主正在积极恢复中，请各位玩家耐心等待，并关注主页信息更新和通知，有进展会第一时间在网站上进行同步**
+
+---
+
 ## Minecraft - [PaperMC](https://papermc.io)
 
 区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
@@ -19,7 +27,7 @@ featured_image: "/images/bg_qq_sponsor_v2.png"
 
 🇨🇳 **国内服:** 由群内小伙伴提供的机器，解决国内用户由于防火墙原因，访问海外正式服经常被踢下线的问题。
 
-💬 **国内玩家群:** **[1056934080(QQ)](https://jq.qq.com/?_wv=1027&k=DUEQuLE6)**
+~~💬 **国内玩家群:** **[1056934080(QQ)](https://jq.qq.com/?_wv=1027&k=DUEQuLE6)**~~
 
 ---
 
