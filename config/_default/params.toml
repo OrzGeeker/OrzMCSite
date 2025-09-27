@@ -60,7 +60,7 @@ profile = "https://space.bilibili.com/%s"
 slug = "qq"
 label = "QQ"
 icon = "qq"
-profile = "https://qm.qq.com/cgi-bin/qm/qr?k=wJMW671jchxeVl59f-OtTiNtws1q8FrT&jump_from=webapi&authKey=L5rPoD0yuOaFHRx420wdfNyiKOx9Tok9ZitGUL+x98mz7+PSMmQ8w99PxizyXwZY"
+profile = "https://pd.qq.com/s/9zuis6m4v"
 [ananke.social.networks.discord]
 slug = "discord"
 label = "Discord"
