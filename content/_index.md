@@ -11,6 +11,11 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 
 ## Minecraft - [PaperMC](https://papermc.io)
 
+```
+跳过1.21.9, 下一个版本是1.21.10，待稳定后再进行升级
+https://papermc.io/downloads/paper
+```
+
 ---
 
 区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
@@ -29,7 +34,7 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 🏖️ **海外服:** 使用 **[Exaroton](https://exaroton.com)** 平台托管，服务器上最后一个玩家 **离开3分钟** 后会 **自动停止**服务。
 当 **白名单玩家** 加入服务器时，如果服务器未运行，会触发 **自动启动**
 
-💬 **海外玩家群:**  **[Discord](https://discord.gg/9JAb9vpvUE)**
+💬 **海外玩家群:**  **[Discord](https://discord.gg/9JAb9vpvUE)** / **[QQ群](https://qm.qq.com/q/jIZ4hf4mYM)**
 
 --- 
 
@@ -53,6 +58,6 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 
 😘😘😘😘😘😘
 
-收到的捐赠将全部用于运营服务器，并公开所有接收到的捐赠
+收到的捐赠将全部用于运营服务器，并公开所有接收到的捐赠及用途
 
 ---
