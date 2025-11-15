@@ -12,7 +12,7 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 ## Minecraft - [PaperMC](https://papermc.io)
 
 ```
-跳过1.21.9, 下一个版本是1.21.10，待稳定后再进行升级
+当前版本是1.21.10-113，PaperMC最新版本服务端下载地址：
 https://papermc.io/downloads/paper
 ```
 
@@ -20,8 +20,8 @@ https://papermc.io/downloads/paper
 
 区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
 |:---|:-------:|:-----|:--------------------------|
-|国内|**1.21.8**|≥**21**|**mc.jokerhub.cn**|
-|海外|**1.21.8**|≥**21**|**paper.jokerhub.cn**|
+|国内|**1.21.10**|≥**21**|**mc.jokerhub.cn**|
+|海外|**1.21.10**|≥**21**|**paper.jokerhub.cn**|
 
 ---
 
