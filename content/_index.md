@@ -27,7 +27,7 @@ https://papermc.io/downloads/paper
 
 🇨🇳 **国内服:** 由群内小伙伴提供的机器，解决国内用户由于防火墙原因，访问海外正式服经常被踢下线的问题。
 
-💬 **国内玩家社区:** **[QQ频道](https://pd.qq.com/s/9zuis6m4v)**
+💬 **国内玩家社区:** **[QQ频道](https://pd.qq.com/s/9zuis6m4v)** / **[QQ群](https://qm.qq.com/q/jK94lqgub0)**
 
 ---
 
