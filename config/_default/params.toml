@@ -25,10 +25,10 @@ new_window_icon = true
 networks = [
     "qq",
     "discord",
-    "github",
     "bilibili",
-    "x-twitter",
     "youtube",
+    "x-twitter",
+    "github",
 ]
 # Share
 [ananke.social.share]
