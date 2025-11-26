@@ -9,19 +9,20 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 ---
 
 
-## Minecraft - [PaperMC](https://papermc.io)
+## [Minecraft](https://www.minecraft.net/download) - [PaperMC](https://papermc.io/downloads/paper) - [Java](https://www.oracle.com/java/technologies/downloads/)
+
 
 ```
-当前版本是1.21.10-113，PaperMC最新版本服务端下载地址：
-https://papermc.io/downloads/paper
+当前服务器版本为: 👉 1.21.10
+
+🖥️ Java客户端联机
+国内服地址：mc.jokerhub.cn
+海外服地址：paper.jokerhub.cn
+
+📱 基岩客户端联机
+国内服地址：mc.jokerhub.cn:19132
+海外服地址：paper.jokerhub.cn:39742
 ```
-
----
-
-区域|游戏版本|[Java版本](https://www.oracle.com/java/technologies/downloads/)|服务器地址|
-|:---|:-------:|:-----|:--------------------------|
-|国内|**1.21.10**|≥**21**|**mc.jokerhub.cn**|
-|海外|**1.21.10**|≥**21**|**paper.jokerhub.cn**|
 
 ---
 
@@ -32,9 +33,11 @@ https://papermc.io/downloads/paper
 ---
 
 🏖️ **海外服:** 使用 **[Exaroton](https://exaroton.com)** 平台托管，服务器上最后一个玩家 **离开3分钟** 后会 **自动停止**服务。
-当 **白名单玩家** 加入服务器时，如果服务器未运行，会触发 **自动启动**
+当 **白名单玩家** 加入服务器时，如果服务器未运行，会触发 **自动启动**。
 
 💬 **海外玩家群:**  **[Discord](https://discord.gg/9JAb9vpvUE)** / **[QQ群](https://qm.qq.com/q/jIZ4hf4mYM)**
+
+❗️海外服与国内服物理隔离，地图也是两份，主要解决非中国大陆地区玩家连接国内服，网络不稳定问题。
 
 --- 
 
