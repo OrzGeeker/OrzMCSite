@@ -50,8 +50,10 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 即可 **进服玩耍**。
 
 💓 **声明:** 本服为 **非商业离线私服**，用户不需要正版验证，
-且符合 **[Mojang EULA协议](https://account.mojang.com/documents/minecraft_eula)**，
+且符合 **[Mojang EULA 协议](https://account.mojang.com/documents/minecraft_eula)**，
 旨在提供 **小范围Minecraft社区玩家相互交流**， **激发协作和创造力**。
+
+**[Mojang EULA 协议解读](https://chat.deepseek.com/share/ld76gr54mfq59ov7gw)**
 
 ---
 
