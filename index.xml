@@ -1,102 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title> ❤️‍🔥 我的世界 on Joker@Minecraft 🇨🇳</title>
-    <link>https://minecraft.jokerhub.cn/</link>
-    <description>Recent content in  ❤️‍🔥 我的世界 on Joker@Minecraft 🇨🇳</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="https://minecraft.jokerhub.cn/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怎样开发一个Minecraft启动器(Java版)</title>
-      <link>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</guid>
-      <description>自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器</description>
-    </item>
-    <item>
-      <title>Minecraft Web 客户端</title>
-      <link>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</guid>
-      <description>探索使用Web浏览器玩我的世界游戏。</description>
-    </item>
-    <item>
-      <title>服主应知应会</title>
-      <link>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</guid>
-      <description>如果你要做为一名服务运维自己的Minecraft服务器，这篇文章中的知识需要了解和掌握。</description>
-    </item>
-    <item>
-      <title>服务端运维</title>
-      <link>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</guid>
-      <description>记录一些在实际进行Minecraft服务端运维时遇到的问题和相应的解决办法</description>
-    </item>
-    <item>
-      <title>服务端插件</title>
-      <link>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</guid>
-      <description>收集PaperMC服务端常用的插件信息，以及在实际使用过程中需要注意问题。</description>
-    </item>
-    <item>
-      <title>PaperMC插件开发</title>
-      <link>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</guid>
-      <description>学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。</description>
-    </item>
-    <item>
-      <title>Minecraft 基岩版服务端</title>
-      <link>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</guid>
-      <description>探索Minecraft红石版服务端的部署和运维</description>
-    </item>
-    <item>
-      <title>服务器地图大小限制</title>
-      <link>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</guid>
-      <description>运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。</description>
-    </item>
-    <item>
-      <title>相关资源链接</title>
-      <link>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</guid>
-      <description>收集与Minecraft相关的一切有用的资源链接</description>
-    </item>
-    <item>
-      <title>客户端启动器</title>
-      <link>https://minecraft.jokerhub.cn/client/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/client/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;游戏版本&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;JAVA版本&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧1.20.5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧21&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧1.18&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧17&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧1.17&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧16&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&amp;lt;1.17&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;≧8&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;自研-macos-平台启动器---orzmcapp&#34;&gt;自研 MacOS 平台启动器 - OrzMCApp&lt;/h2&gt;&#xA;&lt;p&gt;使用 Swift &amp;amp; SwiftUI 编写的MacOS平台启动器:&#xA;&lt;a href=&#34;https://github.com/OrzGeeker/OrzMCApp&#34;&gt;代码仓库&lt;/a&gt; -&#xA;&lt;a href=&#34;https://github.com/OrzGeeker/OrzMCApp/releases/download/0.1.1/OrzMC_0.1.1_24_20250723_031710.zip&#34;&gt;下载应用&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/client/orzmc_macOS.png&#34; alt=&#34;OrzMC_MacOS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;视频介绍👇&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1b4HAeBERS&#34;&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/video_cover/orzmc_install.png&#34; alt=&#34;安装&#34;&gt;&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1hBtUeJE8y&#34;&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/video_cover/orzmc_usage.png&#34; alt=&#34;使用&#34;&gt;&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;python-命令行启动器---orzpythonmc&#34;&gt;Python 命令行启动器 - OrzPythonMC&lt;/h2&gt;&#xA;&lt;p&gt;Mac/Linux系统可以使用：&lt;a href=&#34;https://github.com/OrzGeeker/OrzPythonMC&#34;&gt;代码仓库&lt;/a&gt; - &lt;a href=&#34;https://pypi.org/project/OrzMC/&#34;&gt;PyPI发布&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/client/orzmc_cli_py.png&#34; alt=&#34;OrzMC_CLI_PY&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装方法:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 安装应用到用户目录下&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m pip install --user orzmc&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 添加用户二进制目录到环境变量&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PATH=$PATH:&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;python3 -m site --user-base&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;/bin &amp;gt;&amp;gt; ~/.bashrc&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 使用添加的环境变量立即生效&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source ~/.bashrc &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 运行 orzmc 命令&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;orzmc&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;跨平台java启动器---hmcl&#34;&gt;跨平台Java启动器 - HMCL&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://hmcl.huangyuhui.net/&#34;&gt;HMCL主页&lt;/a&gt; -&#xA;&lt;a href=&#34;https://github.com/huanghongxun/HMCL&#34;&gt;代码仓库&lt;/a&gt; -&#xA;&lt;a href=&#34;https://ci.huangyuhui.net/job/HMCL/&#34;&gt;下载地址&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/client/hmcl_java.png&#34; alt=&#34;HMCL_JAVA&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>捐赠</title>
-      <link>https://minecraft.jokerhub.cn/sponsor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/sponsor/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;支付宝扫二维码并添加备注信息&#34;&gt;支付宝扫二维码，并&lt;strong&gt;添加备注信息&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/alipay_sponsor.png&#34; alt=&#34;alipay&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;捐赠者列表公示&#34;&gt;捐赠者列表公示&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换状态&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;捐赠人名称&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;捐赠金额&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换积分&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;兑换金额&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;总结余&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;joker&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;✅&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;**瑞&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥31.80&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;350&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥30.13&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥1.67&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;🚧&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;**午&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥23.85&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;0&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥0&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥25.52&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;exaroton-海外服务器积分支付记录公示&#34;&gt;Exaroton 海外服务器积分支付记录公示&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/server/exaroton_score.png&#34; alt=&#34;exaroton server payment log&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://exaroton.com/pools/qWE6dfsMX4TxT6g4&#34;&gt;Exaroton 积分库&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://exaroton.com/server/&#34;&gt;Exaroton Server&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://exaroton.com/credits/&#34;&gt;积分购买链接&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;海外服托管平台仅按服务时长计费&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;服务器配置&lt;/th&gt;&#xA;          &lt;th&gt;服务费用&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;1核2G&lt;/td&gt;&#xA;          &lt;td&gt;2积分/时&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td&gt;1.5核3G&lt;/td&gt;&#xA;          &lt;td&gt;3积分/时&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2核4G&lt;/td&gt;&#xA;          &lt;td&gt;4积分/时&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;4核8G&lt;/td&gt;&#xA;          &lt;td&gt;8积分/时&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/server/config.png&#34; alt=&#34;服务配置&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;-积分购买&#34;&gt;💰 积分购买&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;积分数量&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;费用(人民币)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥23.85&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;400&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥31.80&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;500&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;¥39.75&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://minecraft.jokerhub.cn/images/server/score_pay.png&#34; alt=&#34;积分购买&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>玩家手册</title>
-      <link>https://minecraft.jokerhub.cn/user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/user/</guid>
-      <description>&lt;h2 id=&#34;玩家须知&#34;&gt;玩家须知&lt;/h2&gt;&#xA;&lt;p&gt;服务器中一些热爱创造的小伙伴在这里花费了大量心力建造出各种漂亮的建筑，希望刚加入的朋友不要随意对其进行破坏，尊重他人的劳动成果。&#xA;如果是完全小白，进服后如果感觉没有玩伴或者不太熟悉环境，可以加入: &lt;strong&gt;&lt;a href=&#34;https://pd.qq.com/s/9zuis6m4v&#34;&gt;QQ频道&lt;/a&gt;&lt;/strong&gt;，群里有很多资深玩家可以带你。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;设置帐号密码&#34;&gt;设置帐号密码&lt;/h2&gt;&#xA;&lt;p&gt;刚登录服务器后，使用 &lt;strong&gt;/register&lt;/strong&gt; 命令注册自己用户名对应的登录密码，以防止其它人使用你的帐号，盗用你的物品&lt;/p&gt;&#xA;&lt;p&gt;注册密码之后，下次登录服务器使用 &lt;strong&gt;/login &amp;lt;password&amp;gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/help LoginSecurity&lt;/strong&gt; 可查看插件提供的所有可用指令&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;设置快速回家&#34;&gt;设置快速回家&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;/sethome&lt;/strong&gt; 可以提前设置大本营，如果你出门冒险很远距离后，不想再长途跋涉返回根据地，可以使用 &lt;strong&gt;/home&lt;/strong&gt; 命令快速回到之前设置的大本营&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/listhomes&lt;/strong&gt; 查看所有的家&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/delhome &amp;lt;home_name&amp;gt;&lt;/strong&gt; 删除设置的家&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/help getmehome&lt;/strong&gt; 查看插件提供的所有可用指令&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;死亡后物品快速找回&#34;&gt;死亡后物品快速找回&lt;/h2&gt;&#xA;&lt;p&gt;出门探险一段时间获得了不少的物品，但是可能不小心被苦力怕炸飞，或是被小白洞穿身体，你复活时想要尽快的拿回丢失的物品，可以使用 &lt;strong&gt;/back&lt;/strong&gt; 命令，&#xA;快速回到死亡地点，并找到收纳自己掉落物品的箱子。这个掉落物品收纳箱五分钟内有效，所以你需要在五分钟内回到死亡地点，如果超时，掉落的物品将会消失。如果死亡是由于掉进岩浆，很不幸，你的箱子也会被融化掉，所以物品是找不回来的 &lt;strong&gt;#-_-#&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;如何自定义皮肤&#34;&gt;如何自定义皮肤&lt;/h2&gt;&#xA;&lt;p&gt;登录图片保存网站 &lt;a href=&#34;https://imgur.com/&#34;&gt;imgur&lt;/a&gt;&#xA;上传你的皮肤后，获取下载链接后，在游戏里使用命令进行设置：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/skinsrestorer:skin set &amp;lt;your_skin_image_download_link&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>自研插件</title>
-      <link>https://minecraft.jokerhub.cn/plugin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://minecraft.jokerhub.cn/plugin/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;服务器使用自研插件 &lt;strong&gt;&lt;a href=&#34;https://hangar.papermc.io/wangzhizhou666/OrzMC&#34;&gt;OrzMC&lt;/a&gt;&lt;/strong&gt; 来辅助运营服务器&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;插件功能&#34;&gt;插件功能&lt;/h1&gt;&#xA;&lt;p&gt;新手进服会获得新手指南，&lt;strong&gt;/guide&lt;/strong&gt; 命令可以打开新手指南&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/tpbow&lt;/strong&gt; 命令可获得传送弓&lt;/p&gt;&#xA;&lt;p&gt;禁用TNT, 玩家放置或点燃TNT会全服公告，并同步玩家群&lt;/p&gt;&#xA;&lt;p&gt;QQ群提供服务器/玩家上下线提醒&lt;/p&gt;&#xA;&lt;p&gt;QQ群管理员可对玩家白名单进行添加/移除操作&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;QQ群服务需要使用 &lt;strong&gt;&lt;a href=&#34;https://napcat.napneko.icu&#34;&gt;NapCatQQ&lt;/a&gt;&lt;/strong&gt; 服务自行部署实现&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>❤️‍🔥 我的世界 on Joker@Minecraft 🇨🇳</title><link>https://minecraft.jokerhub.cn/</link><description>Recent content in ❤️‍🔥 我的世界 on Joker@Minecraft 🇨🇳</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://minecraft.jokerhub.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>怎样开发一个Minecraft启动器(Java版)</title><link>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/1.client/10.launcher/</guid><description>自已动手写一个 Minecraft 启动器，你也可以拥有自己的启动器</description></item><item><title>Minecraft Web 客户端</title><link>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/1.client/11.webmc/</guid><description>探索使用Web浏览器玩我的世界游戏。</description></item><item><title>服主应知应会</title><link>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/2.server/20.server_admin/</guid><description>如果你要做为一名服务运维自己的Minecraft服务器，这篇文章中的知识需要了解和掌握。</description></item><item><title>服务端运维</title><link>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/2.server/21.server_operation/</guid><description>记录一些在实际进行Minecraft服务端运维时遇到的问题和相应的解决办法</description></item><item><title>服务端插件</title><link>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/2.server/22.paper_server_plugins/</guid><description>收集PaperMC服务端常用的插件信息，以及在实际使用过程中需要注意问题。</description></item><item><title>PaperMC插件开发</title><link>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/2.server/23.papermc_plugin_dev/</guid><description>学习如何开发PaperMC服务端插件是一件很有意义的事情。PaperMC的开发者生态很完善，提供了一个比较好用的插件市场，我们自己开发的插件也可以比较容易的发布到插件市场上，供其它玩家使用。本文教你如何开始开发PaperMC的服务端插件。</description></item><item><title>Minecraft 基岩版服务端</title><link>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/2.server/24.bedrock_server/</guid><description>探索Minecraft红石版服务端的部署和运维</description></item><item><title>服务器地图大小限制</title><link>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/3.other/31.worldsize/</guid><description>运营一个PaperMC服务器，地图占用磁盘空间的大小，会随着玩家跑图越来越大。服务器需要定期备份地图，以防恶意玩家破坏服务器。不断增加的地图磁盘空间占用，对定期备份造成了比较大的影响。本文讨论一种可行的服务器地图备份时的磁盘占用优化方案。</description></item><item><title>相关资源链接</title><link>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/posts/3.other/32.minecraft_resources/</guid><description>收集与Minecraft相关的一切有用的资源链接</description></item><item><title>捐赠</title><link>https://minecraft.jokerhub.cn/sponsor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/sponsor/</guid><description>&lt;hr>
+
+&lt;h2 id="支付宝扫二维码并添加备注信息" class="relative">
+ 支付宝扫二维码，并&lt;strong>添加备注信息&lt;/strong>&lt;a href="#%e6%94%af%e4%bb%98%e5%ae%9d%e6%89%ab%e4%ba%8c%e7%bb%b4%e7%a0%81%e5%b9%b6%e6%b7%bb%e5%8a%a0%e5%a4%87%e6%b3%a8%e4%bf%a1%e6%81%af" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h2>
+&lt;p>
+
+
+
+
+ &lt;img src="https://minecraft.jokerhub.cn/images/alipay_sponsor.png" alt="alipay" loading="lazy" decoding="async" class="mw-100" referrerpolicy="no-referrer" sizes="(max-width: 768px) 100vw, 1200px" />
+
+&lt;/p>
+&lt;hr>
+
+&lt;h2 id="捐赠者列表公示" class="relative">
+ 捐赠者列表公示&lt;a href="#%e6%8d%90%e8%b5%a0%e8%80%85%e5%88%97%e8%a1%a8%e5%85%ac%e7%a4%ba" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">兑换状态&lt;/th>
+ &lt;th style="text-align: left">捐赠人名称&lt;/th>
+ &lt;th style="text-align: left">捐赠金额&lt;/th>
+ &lt;th style="text-align: left">兑换积分&lt;/th>
+ &lt;th style="text-align: left">兑换金额&lt;/th>
+ &lt;th style="text-align: left">总结余&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">joker&lt;/td>
+ &lt;td style="text-align: left">¥23.85&lt;/td>
+ &lt;td style="text-align: left">300&lt;/td>
+ &lt;td style="text-align: left">23.85&lt;/td>
+ &lt;td style="text-align: left">¥0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">**瑞&lt;/td>
+ &lt;td style="text-align: left">¥31.80&lt;/td>
+ &lt;td style="text-align: left">350&lt;/td>
+ &lt;td style="text-align: left">¥30.13&lt;/td>
+ &lt;td style="text-align: left">¥1.67&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">🚧&lt;/td>
+ &lt;td style="text-align: left">**午&lt;/td>
+ &lt;td style="text-align: left">¥23.85&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">¥0&lt;/td>
+ &lt;td style="text-align: left">¥25.52&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+
+&lt;h2 id="exaroton-海外服务器积分支付记录公示" class="relative">
+ Exaroton 海外服务器积分支付记录公示&lt;a href="#exaroton-%e6%b5%b7%e5%a4%96%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%a7%af%e5%88%86%e6%94%af%e4%bb%98%e8%ae%b0%e5%bd%95%e5%85%ac%e7%a4%ba" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h2>
+&lt;p>
+
+
+
+
+ &lt;img src="https://minecraft.jokerhub.cn/images/server/exaroton_score.png" alt="exaroton server payment log" loading="lazy" decoding="async" class="mw-100" referrerpolicy="no-referrer" sizes="(max-width: 768px) 100vw, 1200px" />
+
+&lt;/p></description></item><item><title>客户端启动器</title><link>https://minecraft.jokerhub.cn/client/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/client/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">游戏版本&lt;/th>
+ &lt;th style="text-align: center">JAVA版本&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">≧1.20.5&lt;/td>
+ &lt;td style="text-align: center">≧21&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">≧1.18&lt;/td>
+ &lt;td style="text-align: center">≧17&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">≧1.17&lt;/td>
+ &lt;td style="text-align: center">≧16&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&amp;lt;1.17&lt;/td>
+ &lt;td style="text-align: center">≧8&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h2 id="自研-macos-平台启动器---orzmcapp" class="relative">
+ 自研 MacOS 平台启动器 - OrzMCApp&lt;a href="#%e8%87%aa%e7%a0%94-macos-%e5%b9%b3%e5%8f%b0%e5%90%af%e5%8a%a8%e5%99%a8---orzmcapp" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h2>
+&lt;p>使用 Swift &amp;amp; SwiftUI 编写的MacOS平台启动器:
+
+
+&lt;a href="https://github.com/OrzGeeker/OrzMCApp" target="_blank" rel="noopener noreferrer">代码仓库&lt;/a>
+
+ -
+
+
+&lt;a href="https://github.com/OrzGeeker/OrzMCApp/releases/download/0.1.1/OrzMC_0.1.1_24_20250723_031710.zip" target="_blank" rel="noopener noreferrer">下载应用&lt;/a>
+
+&lt;/p></description></item><item><title>玩家手册</title><link>https://minecraft.jokerhub.cn/user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/user/</guid><description>&lt;h2 id="玩家须知" class="relative">
+ 玩家须知&lt;a href="#%e7%8e%a9%e5%ae%b6%e9%a1%bb%e7%9f%a5" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h2>
+&lt;p>服务器中一些热爱创造的小伙伴在这里花费了大量心力建造出各种漂亮的建筑，希望刚加入的朋友不要随意对其进行破坏，尊重他人的劳动成果。
+如果是完全小白，进服后如果感觉没有玩伴或者不太熟悉环境，可以加入: &lt;strong>
+
+&lt;a href="https://pd.qq.com/s/9zuis6m4v" target="_blank" rel="noopener noreferrer">QQ频道&lt;/a>
+
+&lt;/strong>，群里有很多资深玩家可以带你。&lt;/p></description></item><item><title>自研插件</title><link>https://minecraft.jokerhub.cn/plugin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://minecraft.jokerhub.cn/plugin/</guid><description>&lt;hr>
+&lt;p>服务器使用自研插件 &lt;strong>
+
+&lt;a href="https://hangar.papermc.io/wangzhizhou666/OrzMC" target="_blank" rel="noopener noreferrer">OrzMC&lt;/a>
+
+&lt;/strong> 来辅助运营服务器&lt;/p>
+&lt;hr>
+
+&lt;h1 id="插件功能" class="relative">
+ 插件功能&lt;a href="#%e6%8f%92%e4%bb%b6%e5%8a%9f%e8%83%bd" aria-label="链接到本节" class="anchor-link ml2 gray hover-dark-gray">🔗&lt;/a>
+&lt;/h1>
+&lt;p>新手进服会获得新手指南，&lt;strong>/guide&lt;/strong> 命令可以打开新手指南&lt;/p></description></item></channel></rss>
