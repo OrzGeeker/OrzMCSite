@@ -1,0 +1,25 @@
+<div class="pa3">
+  <a class="link black" href="{{ .RelPermalink }}" title="{{ .Title }}">
+    {{ with .Params.featured_image }}
+      <div class="aspect-ratio aspect-ratio--16x9 mb3">
+        <img class="db w-100 h-100 object-cover" src="{{ . }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+      </div>
+    {{ end }}
+    <h2 class="f4 fw4 lh-title mv2">{{ .Title }}</h2>
+    {{ $excerpt := .Summary | plainify }}
+    <p class="f6 mid-gray mt2">
+      {{ $excerpt | truncate 140 }}
+    </p>
+    <div class="flex items-center silver mt2 f6">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ with .Params.categories }}
+        <span class="mh2">·</span>
+        <span>{{ delimit . ", " }}</span>
+      {{ end }}
+      {{ with .Params.tags }}
+        <span class="mh2">·</span>
+        <span>{{ delimit . ", " }}</span>
+      {{ end }}
+    </div>
+  </a>
+</div>

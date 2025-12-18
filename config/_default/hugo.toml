@@ -2,6 +2,15 @@
 baseURL = "https://minecraft.jokerhub.cn"
 title = "Joker@Minecraft 🇨🇳"
 theme = "ananke"
+defaultContentLanguage = "zh-cn"
+enableRobotsTXT = true
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+
 
 # Hugo
 [module.hugoVersion]
@@ -9,3 +18,23 @@ min = "0.147.9"
 
 [markup.goldmark.renderer]
 unsafe = false
+
+[markup.highlight]
+style = "dracula"
+lineNumbers = true
+lineNumbersInTable = true
+guessSyntax = true
+noClasses = true
+tabWidth = 4
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+
+[minify]
+disableCSS = false
+disableHTML = false
+disableJS = false
+disableJSON = false
+disableSVG = false
+disableXML = false

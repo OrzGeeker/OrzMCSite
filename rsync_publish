@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 SITE_ROOT="."
-hugo -s "${SITE_ROOT}" -e production
+hugo -s "${SITE_ROOT}" -e production --minify --gc
 
 SITE_PUB_DIR="${SITE_ROOT}/public/"
 

@@ -1,0 +1,50 @@
+/* Typography */
+html { scroll-behavior: smooth; }
+.nested-copy-line-height p { line-height: 1.75; }
+.measure-wide { max-width: 48rem; }
+
+/* Code blocks */
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+pre { border-radius: 6px; background: #ffffff; color: #ffffff; overflow: auto; }
+:not(pre) > code { background: #000000cf; color: #ffffff; padding: 0.1rem 0.2rem; border-radius: 4px; border: 1px solid #000000; font-size: 0.8em; }
+
+/* Images */
+img { border-radius: 1px; }
+.mw-100 { max-width: 100%; height: auto; }
+
+/* Aspect ratio & cover */
+.aspect-ratio { position: relative; }
+.aspect-ratio--16x9 { padding-top: 56.25%; }
+.aspect-ratio > img, .aspect-ratio > div { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.object-cover { object-fit: cover; }
+
+/* TOC sticky layout */
+.toc-sticky { position: sticky; top: 5rem; align-self: flex-start; max-height: calc(100vh - 6rem); overflow-y: auto; overflow-x: hidden; -ms-overflow-style: none; scrollbar-width: none; }
+.toc-sticky::-webkit-scrollbar { width: 0; height: 0; }
+
+/* Compact Table of Contents */
+#TableOfContents { font-size: .9rem; line-height: 1.4; }
+#TableOfContents ul, #TableOfContents ol { margin: 0; padding-left: 0; list-style: none; }
+#TableOfContents > ul { padding-left: 0; }
+#TableOfContents ul ul { margin-top: .25rem; padding-left: .75rem; }
+#TableOfContents li { margin: .2rem 0; }
+#TableOfContents a { display: block; text-decoration: none; color: #0b00e4; padding: .2rem 0; word-break: break-word; overflow-wrap: anywhere; white-space: normal; }
+#TableOfContents a:hover { text-decoration: underline; }
+
+/* Heading anchors */
+h1 .anchor-link, h2 .anchor-link, h3 .anchor-link, h4 .anchor-link, h5 .anchor-link, h6 .anchor-link {
+  visibility: hidden;
+  text-decoration: none;
+}
+h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .anchor-link, h5:hover .anchor-link, h6:hover .anchor-link {
+  visibility: visible;
+}
+
+/* Links */
+a { text-decoration: none; }
+a:hover { text-decoration: no-underline; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #e1e1e1; padding: 0.5rem; }
+th { background: #c9c9cf; }

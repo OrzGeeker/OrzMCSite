@@ -29,12 +29,12 @@ rm -rf ${SITE_PUB_DIR}/*
 echo "minecraft.jokerhub.cn" > ${SITE_PUB_DIR}/CNAME
 
 echo "Generating site"
-hugo -s "${SITE_ROOT}" -e production
+hugo -s "${SITE_ROOT}" -e production --minify --gc
 
 echo "Updating gh-pages branch"
 cd ${SITE_PUB_DIR} && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
 echo "Pushing to github"
-cd - 
-git push --all
+cd -
+git push origin gh-pages
 # open "http://minecraft.jokerhub.cn"
