@@ -1,0 +1,29 @@
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var links=document.querySelectorAll('.anchor-link');
+  links.forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      var hash=a.getAttribute('href')||'';
+      var url=location.origin+location.pathname+location.search+hash;
+      try{ history.replaceState(null,'',url); }catch(_){}
+      var revert=function(){ try{ a.setAttribute('data-tooltip','点击复制链接'); }catch(_){} };
+      var copied=function(){ try{ a.setAttribute('data-tooltip','已复制'); setTimeout(revert,1500); }catch(_){} };
+      if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(copied).catch(revert); }
+      else{
+        try{
+          var i=document.createElement('input');
+          i.style.position='fixed';
+          i.style.opacity='0';
+          i.value=url;
+          document.body.appendChild(i);
+          i.select();
+          document.execCommand('copy');
+          document.body.removeChild(i);
+          copied();
+        }catch(_){ revert(); }
+      }
+    });
+  });
+});
+</script>

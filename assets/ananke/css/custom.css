@@ -40,6 +40,10 @@ h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .a
   visibility: visible;
 }
 
+.anchor-link { position: relative; }
+.anchor-link::after { content: attr(data-tooltip); position: absolute; left: 2rem; top: 50%; transform: translateY(-50%); font-size: .75rem; background: rgba(0, 0, 0, 0.7); color: #fff; padding: 2px 6px; border-radius: 4px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity .2s; }
+h1:hover .anchor-link::after, h2:hover .anchor-link::after, h3:hover .anchor-link::after, h4:hover .anchor-link::after, h5:hover .anchor-link::after, h6:hover .anchor-link::after { opacity: 1; }
+
 /* Links */
 a { text-decoration: none; }
 a:hover { text-decoration: no-underline; }
