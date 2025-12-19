@@ -11,8 +11,9 @@
       {{ $excerpt | truncate 140 }}
     </p>
     <div class="flex items-center silver mt2 f6">
-      {{ with .Params.date }}
-        <time datetime="{{ $.Date.Format "2006-01-02" }}">{{ $.Date.Format "2006年01月02日" }}</time>
+      {{ $d := compare.Conditional (not .PublishDate.IsZero) .PublishDate .Date }}
+      {{ if not $d.IsZero }}
+        <time datetime="{{ $d.Format "2006-01-02" }}">{{ $d.Format "2006年01月02日" }}</time>
       {{ end }}
       {{ with .Params.categories }}
         <span class="mh2">·</span>
