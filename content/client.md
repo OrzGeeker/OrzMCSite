@@ -6,6 +6,8 @@ menu:
 title: 客户端启动器
 toc: true
 ---
+---
+## 各版本游戏需要的JAVA版本
 
 |游戏版本|JAVA版本|
 |:-------:|:----:|
@@ -14,25 +16,21 @@ toc: true
 |≧1.17  | ≧16 |
 |<1.17  | ≧8  |
 
-## 自研 MacOS 平台启动器 - OrzMCApp
+## 自研 MacOS 启动器
 
 使用 Swift & SwiftUI 编写的MacOS平台启动器:
 [代码仓库](https://github.com/OrzGeeker/OrzMCApp) -
-[下载应用](https://github.com/OrzGeeker/OrzMCApp/releases/download/0.1.1/OrzMC_0.1.1_24_20250723_031710.zip)
+[版本下载列表](https://github.com/OrzGeeker/OrzMCApp/releases)
 
 ![OrzMC_MacOS](/images/client/orzmc_macOS.png)
 
 视频介绍👇
 
-|     |     |
-|:---:|:---:|
-|||
+|下载安装|操作指南|
+|------|-------|
 |[![安装](/images/video_cover/orzmc_install.png)](https://www.bilibili.com/video/BV1b4HAeBERS)|[![使用](/images/video_cover/orzmc_usage.png)](https://www.bilibili.com/video/BV1hBtUeJE8y)|
 
-
----
-
-## Python 命令行启动器 - OrzPythonMC
+## Python 命令行启动器
 
 Mac/Linux系统可以使用：[代码仓库](https://github.com/OrzGeeker/OrzPythonMC) - [PyPI发布](https://pypi.org/project/OrzMC/)
 
@@ -51,9 +49,9 @@ source ~/.bashrc
 orzmc
 ```
 
----
-
 ## 跨平台Java启动器 - HMCL
+
+HMCL是一个跨平台的Java启动器，支持Windows、Unix/Linux/MacOS。
 
  [HMCL主页](https://hmcl.huangyuhui.net/) -
  [代码仓库](https://github.com/huanghongxun/HMCL) -
@@ -80,8 +78,6 @@ HMCL 可以安装 Fraric 装载器，常用的 MOD 列表：
 |:---|:---|
 |[Reply MOD](https://www.replaymod.com/)|客户端视频录制|
 
----
-
 ## 客户端开光影
 
 Optifine的jar包路径要包含在最前面，否则会有问题，解决方案参考：<https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine>
@@ -98,8 +94,6 @@ resourcepacks
 
 - [BSL MiniPack](https://bitslablab.com/bslminipacks/#download)
 - [Chromahills](http://chromahills.com): 客户端光影材质包
-
----
 
 ## 客户端使用模组
 
