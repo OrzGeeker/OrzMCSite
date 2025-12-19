@@ -29,11 +29,28 @@
       </section>
     {{ end }}
   </div>
+  {{ if compare.Eq .Section "posts" }}
   <footer class="ph3 ph5-l pv3 pv4-l">
     <div class="flex justify-between">
-      {{ with .Prev }}<a class="link dim" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
-      {{ with .Next }}<a class="link dim" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
+      {{ $pages := .CurrentSection.Pages.ByDate.Reverse }}
+      {{ $.Scratch.Set "found" false }}
+      {{ $.Scratch.Delete "prev" }}
+      {{ $.Scratch.Delete "next" }}
+      {{ range $pages }}
+        {{ if $.Scratch.Get "found" }}
+          {{ if not ($.Scratch.Get "next") }}
+            {{ $.Scratch.Set "next" . }}
+          {{ end }}
+        {{ else if compare.Eq .RelPermalink $.RelPermalink }}
+          {{ $.Scratch.Set "found" true }}
+        {{ else }}
+          {{ $.Scratch.Set "prev" . }}
+        {{ end }}
+      {{ end }}
+      {{ with ($.Scratch.Get "next") }}<a class="link dim" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+      {{ with ($.Scratch.Get "prev") }}<a class="link dim" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
     </div>
   </footer>
+  {{ end }}
 </article>
 {{ end }}
