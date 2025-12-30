@@ -7,7 +7,8 @@ title: 自研插件
 
 ---
 
-服务器使用自研插件 **[OrzMC](https://hangar.papermc.io/wangzhizhou666/OrzMC)** 来辅助运营服务器
+服务器使用自研插件 **[OrzMC](https://hangar.papermc.io/wangzhizhou666/OrzMC)** 来辅助运营服务器，
+插件已发布到 **[Hangar](https://hangar.papermc.io)** 平台
 
 ---
 
@@ -26,7 +27,7 @@ QQ群管理员可对玩家白名单进行添加/移除操作
 
 ---
 
-QQ群服务需要使用 **[NapCatQQ](https://napcat.napneko.icu)** 服务自行部署实现
+QQ群玩家通知和命令控制能力使用第三方服务 **[NapCatQQ](https://napcat.napneko.icu)** 自行部署实现
 
 ---
 
