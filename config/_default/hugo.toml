@@ -38,3 +38,6 @@ disableJS = false
 disableJSON = false
 disableSVG = false
 disableXML = false
+
+[privacy.youtube]
+privacyEnhanced = true
