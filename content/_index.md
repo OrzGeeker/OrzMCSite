@@ -13,6 +13,9 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 
 
 ```
+🔊 由于主页被各种爬虫光顾，导致服务器地址泄露，容易被Cracker盯上，现推荐玩家进群审核
+```
+<!-- ```
 当前服务器版本为: 👉 1.21.11
 
 🖥️ Java客户端联机
@@ -23,8 +26,8 @@ featured_image: "/images/bg_qq_sponsor_v3.png"
 国内服地址：mc.jokerhub.cn:19132
 海外服地址：paper.jokerhub.cn:39742
 ```
-
----
+-->
+--- 
 
 🇨🇳 **国内服:** 由群内小伙伴提供的机器，解决国内用户由于防火墙原因，访问海外正式服经常被踢下线的问题。
 
