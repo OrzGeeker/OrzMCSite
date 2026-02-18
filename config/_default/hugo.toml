@@ -3,6 +3,7 @@ baseURL = "https://minecraft.jokerhub.cn"
 title = "Joker@Minecraft 🇨🇳"
 theme = "ananke"
 defaultContentLanguage = "zh-cn"
+languageCode = "zh-CN"
 enableRobotsTXT = true
 hasCJKLanguage = true
 

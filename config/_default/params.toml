@@ -3,6 +3,8 @@
 
 favicon = "/images/favicon.png"
 site_logo = ""
+description = "Minecraft 服务器与玩法指南、更新记录与社区动态"
+author = "Joker"
 custom_css = ["custom.css"]
 body_classes = "avenir bg-near-white"
 text_color = "black"
