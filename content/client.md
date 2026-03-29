@@ -7,19 +7,21 @@ title: 客户端启动器
 toc: true
 ---
 ---
-## 各版本游戏需要的JAVA版本
+## 各版本游戏需要的 Java 版本
 
-|游戏版本|JAVA版本|
+具体版本要求以官方发布为准。
+
+|游戏版本|Java 版本|
 |:-------:|:----:|
-|≧26.1  | ≧25 |
-|≧1.20.5| ≧21 |
-|≧1.18  | ≧17 |
-|≧1.17  | ≧16 |
-|<1.17  | ≧8  |
+|≥26.1| ≥25 |
+|≥1.20.5| ≥21 |
+|≥1.18| ≥17 |
+|1.17| ≥16 |
+|<1.17| ≥8 |
 
-## 自研 MacOS 启动器
+## 自研 macOS 启动器
 
-使用 Swift & SwiftUI 编写的MacOS平台启动器:
+使用 Swift & SwiftUI 编写的 macOS 平台启动器:
 [代码仓库](https://github.com/OrzGeeker/OrzMCApp) -
 [版本下载列表](https://github.com/OrzGeeker/OrzMCApp/releases)
 
@@ -50,9 +52,9 @@ source ~/.bashrc
 orzmc
 ```
 
-## 跨平台Java启动器 - HMCL
+## 跨平台 Java 启动器 - HMCL
 
-HMCL是一个跨平台的Java启动器，支持Windows、Unix/Linux/MacOS。
+HMCL 是一个跨平台的 Java 启动器，支持 Windows、Unix/Linux、macOS。
 
  [HMCL主页](https://hmcl.huangyuhui.net/) -
  [代码仓库](https://github.com/huanghongxun/HMCL) -
@@ -60,20 +62,20 @@ HMCL是一个跨平台的Java启动器，支持Windows、Unix/Linux/MacOS。
 
 ![HMCL_JAVA](/images/client/hmcl_java.png)
 
-Windows安装运行：
+Windows 安装运行：
 
 ```
 下载 `*.exe` 文件，并鼠标双击运行
 ```
 
-Unix/Linux/MacOS命令行运行：
+Unix/Linux/macOS 命令行运行：
 
 ```bash
 # 下载 `*.jar`文件，并在命令行中使用`java -jar `命令运行
 java -jar HMCL.jar 
 ```
 
-HMCL 可以安装 Fraric 装载器，常用的 MOD 列表：
+HMCL 可以安装 Fabric 装载器，常用的 MOD 列表：
 
 |名称|功能|
 |:---|:---|
@@ -81,9 +83,9 @@ HMCL 可以安装 Fraric 装载器，常用的 MOD 列表：
 
 ## 客户端开光影
 
-Optifine的jar包路径要包含在最前面，否则会有问题，解决方案参考：<https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine>
+OptiFine 的 jar 包路径要包含在最前面，否则会有问题，解决方案参考：<https://www.bountysource.com/issues/74856476-lwjgl-crash-with-optifine>
 
-- [Optifine](https://www.optifine.net/home): 客户端开光影扩展
+- [OptiFine](https://www.optifine.net/home): 客户端开光影扩展
 
 ShaderPack
   
@@ -91,7 +93,7 @@ ShaderPack
 - [BSL Shader](https://bitslablab.com): 客户端光影渲染器
 
 
-resourcepacks
+Resource packs
 
 - [BSL MiniPack](https://bitslablab.com/bslminipacks/#download)
 - [Chromahills](http://chromahills.com): 客户端光影材质包
@@ -100,11 +102,11 @@ resourcepacks
 
 下载Forge - [官网](https://files.minecraftforge.net/)
 
-Forge服务只能使用JDK8，所以JDK版本一定要确认清楚
+Forge 所需 Java 版本与 Minecraft 版本一致，1.12 及以前通常使用 JDK8，请确认版本要求。
 
-运行命令: `java -jar forge-*.jar --installServer
+运行命令: `java -jar forge-*.jar --installServer`
 
-把mod加入到`mods`文件夹下，包括`SpongeForge.jar`
+把 mod 加入到 `mods` 文件夹下，包括 `SpongeForge.jar`
 
 - [暮色森林](https://github.com/TeamTwilight/twilightforest)
 
