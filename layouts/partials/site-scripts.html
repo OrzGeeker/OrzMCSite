@@ -1,5 +1,44 @@
 <script>
+(function(){
+  var d=document.documentElement;
+  var key='theme';
+  var preferred=function(){
+    return 'dark';
+  };
+  var saved;
+  try{ saved=localStorage.getItem(key); }catch(_){}
+  d.setAttribute('data-theme',saved||preferred());
+})();
 document.addEventListener('DOMContentLoaded',function(){
+  var applyTheme=function(theme){
+    document.documentElement.setAttribute('data-theme',theme);
+    var btn=document.getElementById('theme-toggle');
+    if(btn){
+      var label=btn.querySelector('.theme-toggle__label');
+      if(label){
+        label.textContent=theme==='dark'?'白天':'夜间';
+      }else{
+        btn.textContent=theme==='dark'?'白天':'夜间';
+      }
+      btn.setAttribute('aria-label',theme==='dark'?'切换到白天模式':'切换到夜间模式');
+      btn.setAttribute('aria-pressed',theme==='dark'?'true':'false');
+    }
+  };
+  var stored;
+  try{ stored=localStorage.getItem('theme'); }catch(_){}
+  if(stored){ applyTheme(stored); }
+  else{
+    applyTheme(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  }
+  var toggle=document.getElementById('theme-toggle');
+  if(toggle){
+    toggle.addEventListener('click',function(){
+      var current=document.documentElement.getAttribute('data-theme')==='dark'?'dark':'light';
+      var next=current==='dark'?'light':'dark';
+      applyTheme(next);
+      try{ localStorage.setItem('theme',next); }catch(_){}
+    });
+  }
   var links=document.querySelectorAll('.anchor-link');
   links.forEach(function(a){
     a.addEventListener('click',function(e){
